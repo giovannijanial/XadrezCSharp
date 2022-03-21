@@ -14,12 +14,17 @@ namespace Tabuleiro
 
         }
 
-        public Peca(Posicao posicao, Cor cor, TabuleiroXadrez tabuleiro)
+        public Peca(Cor cor, TabuleiroXadrez tabuleiro)
         {
-            Posicao = posicao;
+            Posicao = null;
             Cor = cor;
             Tabuleiro = tabuleiro;
             QtdeMovimentos = 0;
+        }
+
+        public void IncrementaQtdeMovimentos()
+        {
+            QtdeMovimentos++;
         }
     }
 }
