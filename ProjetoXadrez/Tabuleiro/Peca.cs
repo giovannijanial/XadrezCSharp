@@ -2,7 +2,7 @@
 
 namespace Tabuleiro
 {
-    class Peca
+    abstract class Peca
     {
         public Posicao Posicao { get; set; }
         public Cor Cor { get; protected set; }
@@ -26,5 +26,7 @@ namespace Tabuleiro
         {
             QtdeMovimentos++;
         }
+
+        public abstract bool[,] MovimentosPossiveis();
     }
 }
