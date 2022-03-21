@@ -1,0 +1,14 @@
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\bin\Debug\netcoreapp3.1\ProjetoXadrez.exe
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\bin\Debug\netcoreapp3.1\ProjetoXadrez.deps.json
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\bin\Debug\netcoreapp3.1\ProjetoXadrez.runtimeconfig.json
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\bin\Debug\netcoreapp3.1\ProjetoXadrez.runtimeconfig.dev.json
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\bin\Debug\netcoreapp3.1\ProjetoXadrez.dll
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\bin\Debug\netcoreapp3.1\ProjetoXadrez.pdb
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\obj\Debug\netcoreapp3.1\ProjetoXadrez.csproj.AssemblyReference.cache
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\obj\Debug\netcoreapp3.1\ProjetoXadrez.GeneratedMSBuildEditorConfig.editorconfig
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\obj\Debug\netcoreapp3.1\ProjetoXadrez.AssemblyInfoInputs.cache
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\obj\Debug\netcoreapp3.1\ProjetoXadrez.AssemblyInfo.cs
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\obj\Debug\netcoreapp3.1\ProjetoXadrez.csproj.CoreCompileInputs.cache
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\obj\Debug\netcoreapp3.1\ProjetoXadrez.dll
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\obj\Debug\netcoreapp3.1\ProjetoXadrez.pdb
+C:\ws-vs2019\ProjetoXadrez\ProjetoXadrez\obj\Debug\netcoreapp3.1\ProjetoXadrez.genruntimeconfig.cache
