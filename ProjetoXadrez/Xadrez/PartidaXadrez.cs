@@ -2,6 +2,7 @@
 using Tabuleiro;
 using ProjetoXadrez.Enums;
 using ProjetoXadrez.Xadrez;
+using Tabuleiro.Exceptions;
 
 namespace Xadrez
 {
@@ -21,12 +22,43 @@ namespace Xadrez
             Terminada = false;
         }
 
-        public void ExecutaMobimento (Posicao origem, Posicao destino)
+        public void ExecutaMovimento (Posicao origem, Posicao destino)
         {
             Peca p = Tab.RetirarPeca(origem);
             p.IncrementaQtdeMovimentos();
             Peca pecaCapturada = Tab.RetirarPeca(destino);
             Tab.ColocarPeca(p, destino);
+        }
+
+        public void RealizaJogada(Posicao origem, Posicao destino)
+        {
+            ExecutaMovimento(origem, destino);
+            Turno++;
+            MudaJodador();
+        }
+
+        public void ValidarPosicaoOrigem(Posicao pos)
+        {
+            if(Tab.Peca(pos) == null)
+            {
+                throw new TabuleiroExceptions("Não existe peça na posição de origem escolhida!");
+            }
+            if (JogadorAtual != Tab.Peca(pos).Cor)
+            {
+                throw new TabuleiroExceptions("A peça de origem escolhida não é sua!");
+            }
+            if (!Tab.Peca(pos).ExisteMovimentosPossiveis())
+            {
+                throw new TabuleiroExceptions("Não ha movimentos possiveis para a peça de origem escolhida!");
+            }
+        }
+
+        private void MudaJodador()
+        {
+            if (JogadorAtual == Cor.Branco)
+                JogadorAtual = Cor.Preto;
+            else
+                JogadorAtual = Cor.Branco;
         }
 
         private void ColocarPecas()
