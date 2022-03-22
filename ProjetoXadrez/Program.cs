@@ -47,7 +47,9 @@ namespace ProjetoXadrez
                         Console.ReadKey();
                     }
                 }
-                
+                Console.Clear();
+                Tela.ImprimirPartida(partida);
+
             }
             catch(TabuleiroExceptions e)
             {
